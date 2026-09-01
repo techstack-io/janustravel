@@ -9,7 +9,6 @@ export default {
   theme: {
     extend: {
       colors: {
-        // Janus Travel — Snowy Yet Warm
         wine: "#B23850",
         ivory: "#E7E3D4",
         ink: "#29344A",
