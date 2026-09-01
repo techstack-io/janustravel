@@ -1,2 +1,29 @@
-import type { Config } from 'tailwindcss'
-export default {content:['./app/**/*.{js,ts,jsx,tsx,mdx}','./components/**/*.{js,ts,jsx,tsx,mdx}'],theme:{extend:{colors:{wine:'#641C2D',ivory:'#F7F0E5',ink:'#29231F',gold:'#B48A50',sage:'#77806D'},fontFamily:{serif:['Georgia','serif'],sans:['Arial','sans-serif']}}},plugins:[]} satisfies Config
+import type { Config } from "tailwindcss";
+
+export default {
+  content: [
+    "./app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./components/**/*.{js,ts,jsx,tsx,mdx}",
+  ],
+
+  theme: {
+    extend: {
+      colors: {
+        // Janus Travel — Snowy Yet Warm
+        wine: "#B23850",
+        ivory: "#E7E3D4",
+        ink: "#29344A",
+        gold: "#8590AA",
+        sage: "#C4DBF6",
+        blue: "#3B8BEB",
+      },
+
+      fontFamily: {
+        serif: ["Georgia", "serif"],
+        sans: ["Arial", "sans-serif"],
+      },
+    },
+  },
+
+  plugins: [],
+} satisfies Config;
