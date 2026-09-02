@@ -16,7 +16,7 @@ export default function Home() {
         }}
       >
         {/* Dark overlay for readability */}
-        <div className="absolute inset-0 bg-ink/35" />
+        <div className="absolute inset-0 bg-gradient-to-r from-black/45 via-black/10 to-transparent" />
 
         {/* Hero content */}
         <div className="relative z-10 mx-auto w-full max-w-7xl px-6 py-20">
