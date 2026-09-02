@@ -12,7 +12,7 @@ export default function Home() {
           bg-no-repeat
         "
         style={{
-          backgroundImage: "url('/images/janus-hero.jpg')",
+          backgroundImage: "url('/images/beach-resort.jpeg')",
         }}
       >
         {/* Dark overlay for readability */}
